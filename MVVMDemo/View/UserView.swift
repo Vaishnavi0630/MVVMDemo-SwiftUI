@@ -34,6 +34,7 @@ struct UserListView: View {
                         VStack(alignment: .leading, spacing: 6) {
                             Text(user.name)
                                 .font(.headline)
+                                .foregroundStyle(.blue)
 
                             Text(user.email)
                                 .font(.subheadline)
